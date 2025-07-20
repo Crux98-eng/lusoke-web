@@ -1,38 +1,160 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  background-color: black;
+  height: 100%;
+  gap: 20px;
+}
+
+:root {
+  --primary-color: '#1E90FF';
+  --secondary-color: '#0000';
+}
+
+video {
+  width: 1024px;
+  height: 300px;
+  position: absolute;
+
+  top: 40px;
+
+}
+
+nav {
+
+  width: 60%;
+  height: 50px;
+  background-color: #1E90FF;
+  margin-top: 30px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 5;
+  position: fixed;
+  box-shadow: #282c34;
+
+}
+
+.navbtn {
+  background: none;
+  border: none;
+  color: azure;
+}
+.home{
+  width: 100dvw;
+  height: 100dvh;
+  color: aliceblue;
+  
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.about{
+  width: 100dvw;
+  height: max-content;
+ padding-top: 50px;
+ 
+
+  padding: 100px 30px;
+}
+.servicesSection{
+  width: 100dvw;
+  height: max-content;
+  padding: 100px 30px;
+color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1024px) {
+  .App {
+    gap: 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  video {
+    width: 90%;
+    height: auto;
+    top: 20px;
+    position: relative;
+  }
+
+  nav {
+    width: 90%;
+    height: 45px;
+    flex-direction: row;
+    font-size: 14px;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about,
+  .servicesSection {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  video {
+    width: 100%;
+    top: 0;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    height: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .navbtn {
+    font-size: 14px;
+  }
+
+  .home {
+    padding: 40px 15px;
+  }
+
+  .about,
+  .servicesSection {
+    padding: 50px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    gap: 10px;
+  }
+
+  nav {
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .navbtn {
+    font-size: 12px;
+  }
+
+  .about,
+  .servicesSection {
+    padding: 40px 10px;
+  }
+
+  .home {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  video {
+    width: 100%;
+    height: 200px;
   }
 }
