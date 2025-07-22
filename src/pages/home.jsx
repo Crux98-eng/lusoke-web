@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import styles from './home.module.css'
 const Home = () => {
   const [showText, setShowText] = useState(false);
 
@@ -19,13 +19,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div
-      style={{
-        width: '100%',
-        height: '300px',
-        marginTop: 60,
-        zIndex: 1,
-      }}
+    <div className={styles.container}
+     
     >
       <AnimatePresence>
         {showText && (
@@ -42,12 +37,11 @@ const Home = () => {
         )}
       </AnimatePresence>
 
-      <p style={{ fontSize: '34pt', scrollBehavior: 'inherit' }}>
-        We help individuals unlock their potential
-        Build strong rich mindsets, improve their financial performance
-        and most importantly hitting
-        <span style={{ color: '#1E90FF', fontSize: '34pt', fontWeight: 600 }}>
-          {' '}90%
+      <p>
+        We help individuals unlock their potential Build strong rich mindsets, improve their financial performance
+        and most importantly hitting  
+        <span>
+          {' '}  90%
         </span> of their long-term goals
       </p>
     </div>

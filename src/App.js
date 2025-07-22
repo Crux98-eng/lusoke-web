@@ -6,6 +6,7 @@ import Services from './pages/services'
 import videobg from "./assets/videos/videobg.mp4"
 import HomeIcon from '@mui/icons-material/Home';
 import About from './pages/about'
+import Contact from './contact';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
@@ -52,7 +53,8 @@ function App() {
 
       {/* contact section */}
       <section ref={ContactRef}>
-        Contact</section>
+       <Contact />
+      </section>
     </div>
   );
 }

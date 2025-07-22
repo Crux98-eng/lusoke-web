@@ -7,13 +7,25 @@
     padding: 10px 30px;
 
 }
+.outer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+ 
+  overflow: hidden;
+}
 .firstContainer{
     width: 45%;
     height: auto;
+
     
 }
 .firstContainer p{
     font-size: 24pt;
+    overflow-wrap: normal;
+    padding: 10px 30px;
 }
 .firstContainer h4{
     font-size: 26pt;
@@ -59,7 +71,7 @@ height: auto;
 
 @media (max-width: 768px) {
   .firstContainer p {
-    font-size: 18pt;
+    font-size: 16pt;
   }
 
   .firstContainer h4 {
@@ -74,7 +86,7 @@ height: auto;
 
 @media (max-width: 480px) {
   .firstContainer p {
-    font-size: 16pt;
+    font-size: 14pt;
   }
 
   .firstContainer h4 {

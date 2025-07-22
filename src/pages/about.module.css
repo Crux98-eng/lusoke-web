@@ -2,8 +2,9 @@
     width: 100%;
     height:500px ;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 50px;
+    justify-content: center;
+  
+    overflow: hidden;
 }
 .imageContainer{
     margin-top: 40px;
@@ -13,30 +14,36 @@
   scroll-behavior: sticky;
 
 }
+.outer{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
 .header{
     color: #1E90FF;
+    align-self: center;
+   font-size: xx-large;
 
 }
 .aboutSide{
     width: 50%;
-    height: max-content;
-    scroll-behavior: smooth;
-    scrollbar-width: 10px;
-    scrollbar-color:#1E90FF ;
+    height:auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
-    
+    overflow-wrap: normal;
+    padding: 30px;
+   
 
 }
 .subheader{
     font-weight: 500;
     color: white;
+    align-self: center;
 }
 .small_text{
     color: white;
-    text-wrap: 100;
+   overflow-wrap: normal;
     font-size: xx-large;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -72,6 +79,7 @@
 
   .btn {
     padding: 15px 5rem;
+    align-self: center;
   }
 
   .small_text {
@@ -83,6 +91,8 @@
   .btn {
     padding: 12px 3rem;
     font-size: 16px;
+        align-self: center;
+
   }
 
   .small_text {
@@ -99,6 +109,8 @@
   .btn {
     padding: 10px 2rem;
     font-size: 14px;
+        align-self: center;
+
   }
 
   .small_text {
