@@ -72,7 +72,17 @@ nav {
 color: white;
 
 }
-
+.contact-section{
+  width: 100dvw;
+  height: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-header{
+  color: white;
+  font-size: large;
+}
 @media (max-width: 1024px) {
   .App {
     gap: 15px;

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useRef } from 'react';
 import Home from './pages/home'
@@ -6,7 +6,7 @@ import Services from './pages/services'
 import videobg from "./assets/videos/videobg.mp4"
 import HomeIcon from '@mui/icons-material/Home';
 import About from './pages/about'
-import Contact from './contact';
+import Contact from './pages/contact'
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
@@ -52,7 +52,8 @@ function App() {
       </section>
 
       {/* contact section */}
-      <section ref={ContactRef}>
+      <section ref={ContactRef} className='contact-section'>
+        <h1 className='contact-header'>Email us for more information</h1>
        <Contact />
       </section>
     </div>
