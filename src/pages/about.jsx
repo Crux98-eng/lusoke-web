@@ -7,7 +7,7 @@ const About = () => {
     const [ref, inView] = useInView({ triggerOnce: true })
     return (
         <div className={styles.outer}>
-            <h1 className={styles.header}>ABOUT LUSOKE MINDSET</h1>
+            <h1 className={styles.header}>ABOUT</h1>
         <div className={styles.container} >
         
 
