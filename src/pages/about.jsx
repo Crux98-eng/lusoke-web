@@ -3,6 +3,7 @@ import styles from './about.module.css'
 import aboutbg from '../assets/images/aboutbg.png'
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
 const About = () => {
     const [ref, inView] = useInView({ triggerOnce: true })
     return (
@@ -12,7 +13,7 @@ const About = () => {
         
 
             <div className={styles.imageContainer}>
-                <img src={aboutbg} alt=" about image" />
+                <img src={aboutbg} alt=" about-image" />
             </div>
             <motion.div className={styles.aboutSide}
                 ref={ref}
@@ -27,7 +28,7 @@ const About = () => {
                     Passionate about colaborating with like-minded individuals who build impactiful projects and drive long-term success.
 
                 </p>
-                <button className={styles.btn}>Collaborate </button>
+                <Link to="/onePercent" className={styles.btn}>MORE </Link>
             </motion.div>
         </div>
        </div>

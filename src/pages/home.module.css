@@ -4,6 +4,10 @@
         /* margin-top: 60; */
         z-index: 1;
         padding: 12px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
       p{
         font-size: 34pt; 
@@ -16,7 +20,11 @@
          font-size: 34pt;
           font-weight: 600 ;
       }
+      .introvid{
       
+        z-index: 1;
+      }
+
       @media (max-width: 768px) {
   .container {
     padding: 10px 16px;

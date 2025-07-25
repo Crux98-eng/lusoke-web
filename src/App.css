@@ -88,6 +88,29 @@ color: white;
   width: 100dvw;
   height: fit-content;
 }
+.book-section{
+  display: flex;
+  width: 100vw;
+  height: 400px;
+  overflow: hidden;
+
+}
+.book-container{
+  width: 50vw;
+  height: fit-content;
+}
+.book-text{
+  width: 600px;
+  height: 500px;
+  display: flex;
+   
+  color: white;
+
+}
+.book-text p{
+  font-size: 21pt;
+  scroll-behavior: smooth;
+}
 @media (max-width: 1024px) {
   .App {
     gap: 15px;
