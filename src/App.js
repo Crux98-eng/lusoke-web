@@ -11,6 +11,7 @@ import book from './assets/images/book.jpg'
 import Footer from './pages/footer';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Onepercent from './pages/onePercent';
+import MoreAbout from './moreAbout';
 
 function FullPageLayout() {
   const homeRef = useRef();
@@ -91,6 +92,7 @@ function App() {
       <Route path="/" element={<FullPageLayout />} />
       {/* an extra page for further deals */}
       <Route path="/onePercent" element={<Onepercent />} />
+      <Route path="/moreAbout" element={<MoreAbout />} />
     </Routes>
   );
 }

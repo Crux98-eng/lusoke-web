@@ -28,7 +28,7 @@ const About = () => {
                     Passionate about colaborating with like-minded individuals who build impactiful projects and drive long-term success.
 
                 </p>
-                <Link to="/onePercent" className={styles.btn}>MORE </Link>
+                <Link to="/moreAbout" className={styles.btn}>MORE </Link>
             </motion.div>
         </div>
        </div>

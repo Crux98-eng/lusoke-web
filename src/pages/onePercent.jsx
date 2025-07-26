@@ -5,7 +5,7 @@ import future1 from '../assets/images/future1.jpg';
 import future2 from '../assets/images/future2.jpg';
 import book from '../assets/images/book.jpg';
 import rich1 from '../assets/images/rich1.jpg';
-
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 const services = [
   { title: 'Auban Strategy', image: auban },
   { title: 'Future Coaching', image: future1 },
