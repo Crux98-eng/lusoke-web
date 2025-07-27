@@ -4,9 +4,10 @@ import HOME from './assets/images/HOME.jpg'
 import { Link } from 'react-router-dom';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import HomeIcon from '@mui/icons-material/Home';
+
 const WhatsAppButton = ({ message }) => (
   <a
-    href={`https://wa.me/+260764347454?text=${encodeURIComponent(message)}`}
+    href={`https://wa.me/+260777639624?text=${encodeURIComponent(message)}`}
     target="_blank"
     rel="noopener noreferrer"
     className={styles.whatsappButton}
@@ -44,12 +45,12 @@ const MoreAbout = () => {
         <Section
           title="Author"
           description="Writer of One Percent—a powerful book focused on goal setting, discipline, and taking consistent action toward success. Writing content that equips readers with practical tools and mindset strategies to break limitations, stay focused, and become part of the top 1% who execute on their goals. (Set to release this October)"
-          showButton
+         
         />
         <Section
           title="Coach"
           description="Dedicated to guiding individuals through mindset transformation, goal setting, and personal clarity. Offering personalized support to overcome self-doubt, stay consistent, and take intentional steps toward self-improvement."
-          showButton
+         
         />
         <Section
           title="Collaborative Entrepreneur"
@@ -70,7 +71,7 @@ const MoreAbout = () => {
         <Section
           title="Consulting"
           description="One-on-one or small group sessions designed to bring clarity, remove roadblocks, and drive personal/professional growth. Actionable plans tailored to your journey."
-          showButton
+       
         />
         <Section
           title="Scaling"

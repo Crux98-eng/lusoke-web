@@ -20,7 +20,7 @@
   padding: 30px;
 }
 .header{
-    color: #1E90FF;
+    color: #ffffff;
     align-self: center;
    font-size: xx-large;
 
@@ -38,8 +38,10 @@
 }
 .subheader{
     font-weight: 500;
-    color: white;
+    color: #1E90FF;
     align-self: center;
+   
+    
 }
 .small_text{
     color: white;

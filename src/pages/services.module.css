@@ -28,8 +28,9 @@
     padding: 10px 30px;
 }
 .firstContainer h4{
-    font-size: 26pt;
+  font-weight: 500;
     color:  #1E90FF;
+    font-size: 14pt;
 }
 .secondContainer{
     width: 45%;

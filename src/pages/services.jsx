@@ -8,7 +8,7 @@ const Services = () => {
 
             {/* text side right */}
             <div className={styles.firstContainer}>
-                <h4>  Consultant</h4>
+                <h4>  CONSULTING</h4>
                 <p>
 
                     Working closely with individuals to help

@@ -3,7 +3,7 @@ import styles from './contact.module.css'
 const Contact = () => {
     return (
         <div className={styles.main_container}>
-            <form action="https://submit-form.com/Afnkd17VK" className={styles.form_container}>
+            <form action="https://submit-form.com/Y9e87RU8n" className={styles.form_container}>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Name" required="" />
                 <label for="email">Email</label>

@@ -79,3 +79,9 @@
   align-items: center;
   gap: 10px;
 }
+.description{
+  font-size: 12pt;
+  text-wrap: normal;
+  margin:8px 0px ;
+  color: aliceblue;
+}

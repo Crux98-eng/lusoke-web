@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div className={styles.container} >
-     <video src={intro} autoPlay muted loop className={styles.introvid}></video>     
+    <h1>Shape Your Mind. Shape Your Life</h1>     
 
       <p>
         We help individuals unlock their potential Build strong rich mindsets, improve their financial performance
