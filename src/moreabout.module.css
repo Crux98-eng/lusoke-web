@@ -67,3 +67,13 @@
 .whatsappButton:hover {
   background-color: #1ebe5d;
 }
+.home_link{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+}

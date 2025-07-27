@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './moreabout.module.css';
 import HOME from './assets/images/HOME.jpg'
-
+import { Link } from 'react-router-dom';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-
+import HomeIcon from '@mui/icons-material/Home';
 const WhatsAppButton = ({ message }) => (
   <a
     href={`https://wa.me/+260764347454?text=${encodeURIComponent(message)}`}
@@ -32,7 +32,9 @@ const MoreAbout = () => {
         className={styles.heroSection}
         style={{ backgroundImage: `url(${HOME})` }}
       >
+        
         <div className={styles.overlay}>
+             <Link to='/' className={styles.home_link}><HomeIcon  /> {' '} Home</Link>
           <h1>More About</h1>
         </div>
       </div>

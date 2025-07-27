@@ -6,6 +6,8 @@ import future2 from '../assets/images/future2.jpg';
 import book from '../assets/images/book.jpg';
 import rich1 from '../assets/images/rich1.jpg';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { Link } from 'react-router-dom';
+import HomeIcon from '@mui/icons-material/Home';
 const services = [
   { title: 'Auban Strategy', image: auban },
   { title: 'Future Coaching', image: future1 },
@@ -19,6 +21,7 @@ const whatsappLink = `https://wa.me/+260764347454?text=Hi! I'm interested in you
 const Onepercent = () => {
   return (
     <div className={styles.container}>
+      <Link to='/' className={styles.home_link}><HomeIcon  />  Home</Link>
       <h1 className={styles.title}>Our Services</h1>
       <div className={styles.grid}>
         {services.map((service, index) => (
@@ -31,7 +34,8 @@ const Onepercent = () => {
               rel="noopener noreferrer"
               className={styles.whatsappButton}
             >
-              Message on WhatsApp
+              <WhatsAppIcon  style={{width:30,height:30}}/> {' '}
+               WhatsApp us
             </a>
           </div>
         ))}

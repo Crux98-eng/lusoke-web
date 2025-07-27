@@ -55,10 +55,27 @@
   text-decoration: none;
   padding: 10px 16px;
   border-radius: 6px;
-  font-weight: bold;
+  
   transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
 
 .whatsappButton:hover {
-  background-color: #1075d3;
+  background-color: #00d660;
+}
+.home_link{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
