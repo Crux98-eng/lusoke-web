@@ -11,7 +11,7 @@ const Home = () => {
     <h1>Shape Your Mind. Shape Your Life</h1>     
 
       <p>
-        We help individuals unlock their potential Build strong rich mindsets, improve their financial performance
+        We help individuals unlock their potential, Build strong rich mindsets, improve their financial performance
         and most importantly hitting  
         <span>
           {' '}  90%

@@ -99,7 +99,7 @@
     font-size: x-large;
   }
   .imageContainer img{
-    width: 500px;
+    width: 440px;
     height: 500px;
     
   }
@@ -130,6 +130,11 @@
     height: 450px;
     
   }
+   .header{
+    font-weight: 600;
+    font-size: 18pt;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -138,6 +143,10 @@
     font-size: 14px;
         align-self: center;
 
+  }
+  .header{
+    font-weight: 600;
+    font-size: 18pt;
   }
 
   .small_text {
@@ -148,8 +157,8 @@
     margin-top: 15px;
   }
   .imageContainer img{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 390px;
 
   }
 }

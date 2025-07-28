@@ -22,9 +22,9 @@ const About = () => {
                     transition={{ duration: 0.8, delay: .3 }}
                 >
 
-                    <h4 className={styles.subheader}>COLLABORATIVE ENTREPRENEUR</h4>
+                    <h4 className={styles.subheader}>CHRISTOPHER LUSOKE</h4>
                     <p className={styles.small_text}>
-                        About
+                        
 
                         Christopher Lusoke is a Strong Rich Mindset builder, collaborative entrepreneur, investor, marketing strategist, speaker, and author. He is passionate about helping people and brands unlock their potential through mindset growth, financial literacy, and actionable strategies.
 

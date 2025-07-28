@@ -201,6 +201,7 @@ color: white;
   }
 .book-text p{
   text-wrap: normal;
+  font-size: 14pt;
 }
 }
 
@@ -257,8 +258,10 @@ color: white;
     justify-content: center;
     height: fit-content;
     padding: 0px;
+    
   }
 .book-text p{
   text-wrap: normal;
+  font-size: 14pt;
 }
 }

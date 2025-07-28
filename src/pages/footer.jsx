@@ -15,7 +15,7 @@ const Footer = () => {
           style={{ width: 100, height: 100 }}
         />
         <div className={styles.btnf}>
-          Know more about One Percent
+           View more partnership & collaboration
         </div>
       </Link>
 
@@ -27,7 +27,7 @@ const Footer = () => {
           style={{ width: 60, height: 60 }}
         />
         <div className={styles.btnf}>
-          Know more about Future Brands
+         View more partnership & collaboration
         </div>
       </Link>
     </div>
