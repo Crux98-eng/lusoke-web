@@ -91,6 +91,9 @@ height: auto;
     padding: 15px 10px;
     gap: 15px;
   }
+  .btn{
+    padding: 10px 5rem ;
+  }
 }
 
 @media (max-width: 480px) {
@@ -104,5 +107,8 @@ height: auto;
 
   .main_container {
     padding: 10px;
+  }
+   .btn{
+    padding: 10px 5rem ;
   }
 }

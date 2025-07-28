@@ -36,7 +36,7 @@ const MoreAbout = () => {
 
         <div className={styles.overlay}>
           <Link to='/' className={styles.home_link}><HomeIcon /> {' '} Home</Link>
-          <h1>More About</h1>
+          <h1 style={{textAlign:'center'}}>More Services</h1>
         </div>
       </div>
 
@@ -80,11 +80,7 @@ const MoreAbout = () => {
           description="Helping startups grow from survival to success by optimizing systems, improving brand presence, and expanding reach without losing focus or identity."
           showButton
         />
-        <Section
-          title="Marketing Strategy Setup"
-          description="Helping new brands craft custom marketing strategies that clarify their message, reach the right audience, and grow effectively."
-          showButton
-        />
+      
         <Section
           title="Financial Clarity & Growth"
           description="Providing step-by-step guidance on budgeting, income growth, and financial confidence—so you can build wealth and gain freedom."
