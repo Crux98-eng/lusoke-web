@@ -23,6 +23,7 @@ padding: 30px;
     border: solid white 2px;
     padding: 10px 8px;
     background:none;
+    color: aliceblue;
 }
 .form_container input::placeholder{
 color: white;
@@ -48,3 +49,4 @@ color: white;
  border-radius: 10px;
  color: white;
 }
+

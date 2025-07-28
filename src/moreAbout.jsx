@@ -33,53 +33,57 @@ const MoreAbout = () => {
         className={styles.heroSection}
         style={{ backgroundImage: `url(${HOME})` }}
       >
-        
+
         <div className={styles.overlay}>
-             <Link to='/' className={styles.home_link}><HomeIcon  /> {' '} Home</Link>
+          <Link to='/' className={styles.home_link}><HomeIcon /> {' '} Home</Link>
           <h1>More About</h1>
         </div>
       </div>
 
       {/* Info Sections */}
       <div className={styles.contentSections}>
-        <Section
+        {/* <Section
           title="Author"
           description="Writer of One Percent—a powerful book focused on goal setting, discipline, and taking consistent action toward success. Writing content that equips readers with practical tools and mindset strategies to break limitations, stay focused, and become part of the top 1% who execute on their goals. (Set to release this October)"
          
-        />
-        <Section
+        /> */}
+        {/* <Section
           title="Coach"
           description="Dedicated to guiding individuals through mindset transformation, goal setting, and personal clarity. Offering personalized support to overcome self-doubt, stay consistent, and take intentional steps toward self-improvement."
          
-        />
-        <Section
+        /> */}
+        {/* <Section
           title="Collaborative Entrepreneur"
           description="Results-driven entrepreneur with experience in launching, scaling, and managing ventures. Passionate about partnering with like-minded individuals to build impactful, sustainable projects."
-        />
-        <Section
+        /> */}
+        {/* <Section
           title="Investor"
           description="Strategic investor supporting small businesses with capital and mentorship. Helping entrepreneurs grow sustainably and achieve long-term success."
-        />
+        /> */}
         <Section
           title="Marketing Strategist"
           description="Specializing in developing marketing strategies that define the brand message, attract the right audience, and generate measurable growth."
+          showButton
         />
         <Section
-          title="Keynote Speaker"
+          title="Speaking"
           description="Delivering inspiring talks on personal development and entrepreneurship—blending real stories with practical tools to ignite action and purpose."
+          showButton
         />
         <Section
           title="Consulting"
           description="One-on-one or small group sessions designed to bring clarity, remove roadblocks, and drive personal/professional growth. Actionable plans tailored to your journey."
-       
+         showButton
         />
         <Section
           title="Scaling"
           description="Helping startups grow from survival to success by optimizing systems, improving brand presence, and expanding reach without losing focus or identity."
+          showButton
         />
         <Section
           title="Marketing Strategy Setup"
           description="Helping new brands craft custom marketing strategies that clarify their message, reach the right audience, and grow effectively."
+          showButton
         />
         <Section
           title="Financial Clarity & Growth"

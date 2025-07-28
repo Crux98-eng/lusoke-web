@@ -85,3 +85,40 @@
   margin:8px 0px ;
   color: aliceblue;
 }
+
+@media (max-width: 1024px) {
+  .title{
+    font-size: larger;
+    font-weight: 400;
+  }
+ .home_link{
+    top: 3%;
+    left: 20%;
+  }
+}
+
+ 
+
+
+@media (max-width: 768px) {
+  .title{
+    font-size: larger;
+    font-weight: 400;
+  }
+  .home_link{
+    top: 3%;
+    left: 20%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .title{
+    font-size: larger;
+    font-weight: 400;
+  }
+  .home_link{
+    top: 3%;
+    left: 20%;
+  }
+}

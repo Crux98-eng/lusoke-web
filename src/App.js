@@ -50,31 +50,31 @@ function FullPageLayout() {
         <h1>SERVICES</h1>
         <Services />
       </section>
-       {/* book section */}
- <section className='book-section'>
-          <div className='book-container'>
-            <img 
+      {/* book section */}
+      <section className='book-section'>
+        <div className='book-container'>
+          <img
             src={book}
-            style={{width:400,height:400,borderRadius:15}}
-            />
+            style={{ width: 400, height: 400, borderRadius: 15 }}
+          />
 
-          </div>
-          <div className='book-text'>
+        </div>
+        <div className='book-text'>
           <p>
-          One Percent is a transformational book by Christopher Lusoke scheduled to be released in October.
-          This powerful piece explores the art and discipline of goal setting — and more importantly — goal hitting.
-          Built from real-life strategies and high-performance habits, this book is written to help
-          individuals unlock daily actions that lead to long-term success
+            One Percent is a transformational book by Christopher Lusoke scheduled to be released in October.
+            This powerful piece explores the art and discipline of goal setting and more importantly  goal hitting.
+            Built from real-life strategies and high-performance habits, this book is written to help
+            individuals unlock daily actions that lead to long-term success
           </p>
-          </div>
+        </div>
       </section>
       {/* contact section */}
       <section ref={ContactRef} className='contact-section'>
         <h1 className='contact-header'> Email us for more information</h1>
         <Contact />
       </section>
-     
-      
+
+
       {/* footer  */}
       <footer className='footer-section'>
         <Footer />

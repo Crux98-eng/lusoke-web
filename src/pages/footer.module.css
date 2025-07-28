@@ -35,3 +35,36 @@
     justify-content: center;
   
 }
+
+
+@media (max-width: 1024px) {
+    .container{
+        width: 96vdw;
+    }
+
+}
+
+@media (max-width: 768px) {
+  
+ .container{
+        width: 96vdw;
+    }
+
+}
+
+@media (max-width: 480px) {
+   .container{
+        width: 96vdw;
+        
+        display: flex;
+        justify-content:space-around;
+        height: fit-content;
+        padding: 20px;
+    }
+    .oneP{
+        display: block;
+       
+        padding: 10px 20px;
+    }
+
+}

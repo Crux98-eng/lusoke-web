@@ -48,6 +48,9 @@
   p {
     font-size: 16pt;
   }
+  h1{
+    padding: 10px 50px;
+  }
 
   span {
     font-size: 16pt;

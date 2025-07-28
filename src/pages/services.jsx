@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './services.module.css'
 import business from '../assets/images/business.jpeg'
+import { Link } from 'react-router-dom'
+
 const Services = () => {
     return (
         <div className={styles.outer}>
@@ -25,6 +27,7 @@ const Services = () => {
                 <img src={business} alt='business' className={styles.image} />
             </div>
         </div>
+         <Link to="/moreAbout" className={styles.btn}>MORE </Link>
         </div>
     )
 }
